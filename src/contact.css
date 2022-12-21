@@ -1,0 +1,103 @@
+.contactcontainer {
+  box-sizing: border-box;
+  margin-top: 3em;
+  width: 100%;
+  position: relative;
+}
+.or {
+  color: white;
+}
+.nav {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  display: flex;
+
+  gap: 1em;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+}
+.contacticon {
+  width: 1em;
+  height: 1em;
+  margin: 1em;
+}
+.white {
+  color: white;
+  margin: 1em;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+}
+.btns {
+  display: flex;
+  height: 30px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 30%;
+}
+.or {
+  margin: 10px;
+}
+.text {
+  padding: 0.5em;
+  border-radius: 5px;
+}
+.email,
+.phone {
+  display: flex;
+  align-items: center;
+}
+.submit {
+  padding: 0.5em;
+  max-width: 40%;
+  border-radius: 5px;
+}
+.get {
+  flex-wrap: 1;
+}
+.innerdetails {
+  display: flex;
+}
+.leftpart {
+  display: flex;
+  width: 30%;
+
+  flex-direction: column;
+  gap: 2em;
+  padding: 3em;
+  background-color: rgb(243, 243, 83, 0.9);
+}
+.address {
+  flex-wrap: wrap;
+}
+.phone {
+  display: flex;
+}
+.divid {
+  width: 0.4px;
+  height: 1em;
+  margin: 0 5px;
+  background-color: gray;
+}
+.rightpart {
+  display: flex;
+  width: 70%;
+
+  flex-wrap: wrap;
+  gap: 2em;
+  background-color: rgb(236, 231, 231, 0.6);
+}
+.links {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.head {
+  font-size: large;
+  font-weight: bold;
+}
